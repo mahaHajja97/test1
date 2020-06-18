@@ -40,7 +40,7 @@ public class Sth1 {
         List<String> filtered = strings.stream().filter(str0 -> !str0.isEmpty()).collect(Collectors.toList());
         filtered.forEach(System.out::println);
 
-        Math.max(1,1);
+        Math.max(1,1);;
 
         int[] arr = solution(15324);
 
@@ -65,5 +65,7 @@ public class Sth1 {
         sol.forEach(System.out::println);
         int[] array = sol.stream().mapToInt(i->i).toArray();
         return array;
+
+
     }
 }
