@@ -55,7 +55,8 @@ public class Sth1 {
             squares.add(i*i);
         }
         for (int i=squares.size()-1;i>-1;i--) {
-            int num = squares.get(i);
+
+            int  num = squares.get(i);
             while (area>=num && area>0){
                 area-=num;
                 sol.add(num);
